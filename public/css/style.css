@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  background-color: #f7f7f7; }
+
+p {
+  color: #cacaca;
+  font-size: 12px; }
+
+a {
+  color: #9b9b9b;
+  font-size: 12px;
+  text-decoration: none; }
+
+.block-header {
+  margin-bottom: 10px; }
+
+.block-header > label {
+  font-size: 24px;
+  color: #707070; }
+
+.block-header > label span {
+  font-size: 24px;
+  color: #aeaeae; }
+
+.block-form {
+  margin: 0 auto;
+  width: 340px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  -moz-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  box-shadow: 1px 1px 5px 0px #c7c7c7; }
+
+.block-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px 15px 25px; }
+
+.block-name > input {
+  width: 135px;
+  height: 35px;
+  background-color: #f0f0f0;
+  border: none; }
+
+.block-name > input[placeholder] {
+  padding-left: 5px; }
+
+.block-login {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 25px; }
+
+.input-user {
+  background: url(/src/images/man.png) no-repeat 255px; }
+
+.block-login > input {
+  width: 285px;
+  height: 35px;
+  background-color: #f0f0f0;
+  border: none; }
+
+.input-password {
+  background: url(/src/images/lock.png) no-repeat 260px; }
+
+.block-login > input[placeholder] {
+  padding-left: 5px; }
+
+input[type="checkbox"] {
+  display: none; }
+
+input[type="checkbox"] + label {
+  cursor: pointer; }
+
+input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url(/src/images/btn-checked.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5px; }
+
+input[type="checkbox"]:checked + label::before {
+  background-image: url(/src/images/btn.png); }
+
+.block-terms {
+  padding: 15px 25px;
+  position: relative; }
+
+.block-terms label {
+  color: #cacaca;
+  font-size: 12px; }
+
+.block-button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.block-button__btn {
+  background-color: #fea15d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #ffffff; }
+
+.block-more {
+  text-align: center;
+  padding: 15px 0 10px 0; }
+
+::-webkit-input-placeholder {
+  color: #d5d5d5; }
+
+::-moz-placeholder {
+  color: #d5d5d5; }
+
+:-moz-placeholder {
+  color: #d5d5d5; }
+
+:-ms-input-placeholder {
+  color: #d5d5d5; }
